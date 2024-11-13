@@ -7,5 +7,42 @@ body {
    border-bottom: solid 2px rgb(42, 122, 228);
    padding: 20px;
    font-size:32px;
+   color:blueviolet (42, 122, 228);
    
+    }
+
+    .chamada {
+        background: plum(184, 156, 213);
+        padding-bottom: 80px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .chamada-texto {
+        margin-right: 5%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    footer {
+        background-color: #222;
+        color: darkmagenta(42, 122, 228);
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+
+    }
+
+    footer p{
+        text-align: center;
+        font-size: 14px;
+        margin-top: 3px;
+        
     }
